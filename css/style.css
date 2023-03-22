@@ -57,15 +57,25 @@ i {
     color: white;
 }
 
-/* main  */
-
-main {
-    margin-top: 80px;
-}
 
 /*  */
 /* main */
 /*  */
+
+main {
+    margin-top: 100px;
+    height: 400px;
+}
+
+.container.main {
+    width:80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+}
 
 
 /*  */
@@ -116,15 +126,16 @@ a:hover {
 
 /*  */
 /* debug */
-
-/*  
+/* 
 
 .container.header {
     background-color: aquamarine;
 }
 
-ul {
+
+ul { 
      border: 1px solid black;
+     
 }
 
 
@@ -136,4 +147,12 @@ ul {
 border: 1px solid black;
 }
 
+.container.footer {
+    background-color: grey;
+
+}
+
+.colonna-footer {
+    border: 1px solid black;
+}
 */
