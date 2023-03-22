@@ -1,0 +1,76 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ff6900;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.container.header {
+    width:80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+li {
+    padding-right: 5px;
+    color: white;
+    font-weight: 700;
+    
+}
+
+
+.logo {
+    text-align: center;
+    /* non capisco perchè non mi funziona size o heigth  */
+}
+
+.img.logo {
+    width: 20%;
+}
+
+.icone.header {
+    display: flex;
+}
+
+i {
+    padding-left: 5px;
+    color: white;
+}
+
+/* debug
+
+.container.header {
+    background-color: aquamarine;
+}
+
+ul {
+     border: 1px solid black;
+}
+
+
+.icone.header {
+    border: 1px solid black;
+}
+
+.logo {
+border: 1px solid black;
+}
+
+*/
