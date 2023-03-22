@@ -64,7 +64,6 @@ i {
 
 main {
     margin-top: 100px;
-    height: 400px;
 }
 
 .container.main {
@@ -77,6 +76,16 @@ main {
     background-color: blue;
 }
 
+.row.main {
+    display: flex;
+    height: 200px;
+}
+
+.product-column
+
+img.product {
+    height: 100%;
+}
 
 /*  */
 /* footer  */
