@@ -71,7 +71,7 @@ main {
     width:80%;
     height: 100%;
     margin: auto;
-    background-color: blue;
+    
 }
 
 .row.main {
@@ -81,30 +81,51 @@ main {
 .product-column {
     width: calc(100% /3);
     margin: 5px;
-    border: 1px solid black;
     position: relative;
 }
 
 .img.product {
-    height: 100%;
     width: 100%;
     text-align: center;
+    position: relative;
+}
+
+.img.product.hover {
+    width: 100%;
+    text-align: center;
+    display:none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.product-column:hover .img.product.hover {
+    display: inline;
+}
+/* non capisco perchè xxx:hover non può essere .img.product:hover e se per forza l hover si attiva quando passo anche sul like*/
+
+img.product:nth-of-type(1):hover {
     
 }
 
 .like{
     color: black;
     background-color: white;
-    height: 15px;
-    width: 15px;
+    /* height: 15px;
+    width: 15px; con questo viene male, meglio usare padding*/
     position: absolute;
     top: 5px;
     right: 0;
+    padding: 8px;
+}
+
+.like:hover {
+    color: red;
 }
 
 .labels {
     position: absolute;
-    bottom: 20px;
+    top: 75%;
     left: 0px;
 }
 
@@ -119,6 +140,11 @@ main {
 
 .label.sostenibility {
     background-color: green;
+}
+
+/* descrizioni prodotto  */
+.description-column {
+
 }
 
 /*  */
@@ -199,8 +225,17 @@ border: 1px solid black;
 .colonna-footer {
     border: 1px solid black;
 }
-*/
+
 
 .product-column {
 border: 1px solid black;
 }
+
+.description-column {
+    border: 1px solid black;
+}
+
+.container.main {
+background-color: blue;
+}
+*/
